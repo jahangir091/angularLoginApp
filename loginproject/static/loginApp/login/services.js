@@ -44,7 +44,7 @@ authenticationApp.factory('AuthenticationService',
 
         return service;
 
-    })
+    });
 
 
 authenticationApp.factory('Base64', function () {
@@ -129,3 +129,6 @@ authenticationApp.factory('Base64', function () {
             return output;
         }
     };
+
+    /* jshint ignore:end */
+});

@@ -3,7 +3,7 @@
 
 angular.module('Authentication')
 
-.controller('LoginController', function ($scope, $rootScope, $location, AuthenticationService ){
+.controller('LoginController',  function ($scope, $rootScope, $location, AuthenticationService ){
 
         AuthenticationService.ClearCredentials();
 
@@ -21,5 +21,15 @@ angular.module('Authentication')
                   }
           });
         };
+
+        function writeCOnsole() {
+            console.log("rudra");
+        }
+
+        function init() {
+            writeCOnsole();
+        }
+
+        init();
 
         });
