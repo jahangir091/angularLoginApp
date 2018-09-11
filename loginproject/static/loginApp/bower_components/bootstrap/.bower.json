@@ -1,34 +1,15 @@
 {
   "name": "bootstrap",
-  "version": "3.1.1",
-  "main": [
-    "./dist/css/bootstrap.css",
-    "./dist/js/bootstrap.js",
-    "./dist/fonts/glyphicons-halflings-regular.eot",
-    "./dist/fonts/glyphicons-halflings-regular.svg",
-    "./dist/fonts/glyphicons-halflings-regular.ttf",
-    "./dist/fonts/glyphicons-halflings-regular.woff"
-  ],
-  "ignore": [
-    "**/.*",
-    "_config.yml",
-    "CNAME",
-    "composer.json",
-    "CONTRIBUTING.md",
-    "docs",
-    "js/tests"
-  ],
-  "dependencies": {
-    "jquery": ">= 1.9.0"
-  },
   "homepage": "https://github.com/twbs/bootstrap",
-  "_release": "3.1.1",
+  "version": "4.1.3",
+  "_release": "4.1.3",
   "_resolution": {
     "type": "version",
-    "tag": "v3.1.1",
-    "commit": "a365d8689c3f3cee7f1acf86b61270ecca8e106d"
+    "tag": "v4.1.3",
+    "commit": "3b558734382ce58b51e5fc676453bfd53bba9201"
   },
   "_source": "https://github.com/twbs/bootstrap.git",
-  "_target": "3.1.1",
-  "_originalSource": "bootstrap"
+  "_target": "^4.1.3",
+  "_originalSource": "bootstrap",
+  "_direct": true
 }
